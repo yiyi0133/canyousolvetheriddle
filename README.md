@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Between the Lines</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .large-text {
+            font-size: 4rem;
+            color: #fff; /* White color for large text */
+            letter-spacing: 0.1em;
+        }
+
+        .small-text {
+            font-size: 1.5rem;
+            color: #000; /* Black color for small text, same as background */
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="large-text">CAN YOU READ</div>
+        <div class="small-text">Dusk wood</div>
+        <div class="large-text">BETWEEN THE LINES</div>
+    </div>
+</body>
+</html>
